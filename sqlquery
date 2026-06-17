@@ -1,0 +1,19 @@
+Use planmytrip-365;
+create table account (username varchar(20), name varchar(20), password varchar(20),
+security varchar(100), answer varchar(50));
+create table customer (username varchar(20), id varchar(30), number varchar(30),
+name varchar(30), gender varchar(20), country varchar(30), address varchar(50),
+phone varchar(15), email varchar(40));
+create table bookpackage (username varchar(20), package varchar(30), persons
+varchar(20), id varchar(30), number varchar(30), phone varchar(20),price
+varchar(20));
+create table hotel (name varchar(30), costperperson varchar(20), acroom varchar(20),
+foodincluded varchar(10));
+insert into hotel values('Raddisson Blue Hotel', '3400', '1000',
+'1700'); insert into hotel values('River View Hotel','2400','1600',
+'1000'); insert into hotel values('The Taj Hotel','4800','1290', '2900');
+insert into hotel values(' JW Marriott Hotel, '3500', '1500', '1700');
+insert into hotel values('River View Hotel','3000','1700', '1200');
+insert into hotel values('The Taj Hotel','4100','2000', '3000');
+create table bookhotel (username varchar(20), package varchar(30), persons
+varchar(20), id varchar(30), number varchar(30), phone varchar(20), pricevarchar(20));
